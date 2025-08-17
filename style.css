@@ -1,0 +1,89 @@
+/* Estilos globais para o site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #82c6e0;
+    color: #333;
+}
+
+/* Estilo do menu de navegação */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Estilo do conteúdo */
+.conteudo {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Estilo do formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Estilo da imagem de perfil */
+img {
+    max-width: 500px;
+    border-radius: 50%;
+        
+}
+
+/* Estilo para links internos */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px;
+}
+
+.sobremim{
+    font-family: fantasy;
+    font-size: larger;
+}
